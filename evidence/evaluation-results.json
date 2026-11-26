@@ -1,0 +1,426 @@
+{
+  "note": "Small authored demonstration set, disjoint from the semantic reference examples. Not a validation of real-world performance.",
+  "model": "Xenova/all-MiniLM-L6-v2 quantized ONNX via Transformers.js",
+  "rulesOnly": {
+    "n": 20,
+    "threshold": "warning-sign score >= 40",
+    "truePositives": 10,
+    "falseNegatives": 0,
+    "falsePositives": 0,
+    "trueNegatives": 10,
+    "missedExamples": [],
+    "rows": [
+      {
+        "text": "An unknown email offers an internship and asks for a Rs 2,200 security deposit to confirm your seat by tonight.",
+        "expected": "suspicious",
+        "score": 68,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": false,
+        "category": "internship_fee",
+        "semanticUsed": false
+      },
+      {
+        "text": "Scholarship disbursal is delayed. Pay Rs 850 processing charge through this UPI link to receive the instalment.",
+        "expected": "suspicious",
+        "score": 48,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "campus_fee",
+        "semanticUsed": false
+      },
+      {
+        "text": "The HOD has messaged privately for Aadhaar scans before the placement list is finalised. Keep it confidential.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "faculty_impersonation",
+        "semanticUsed": false
+      },
+      {
+        "text": "Tech fest workshop seats are closing. Send Rs 650 registration charge to the organiser personal account now.",
+        "expected": "suspicious",
+        "score": 63,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "event_registration",
+        "semanticUsed": false
+      },
+      {
+        "text": "Hostel allotment is on hold until a Rs 5,000 advance is transferred to the warden account today.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "hostel_payment",
+        "semanticUsed": false
+      },
+      {
+        "text": "Your academic portal password has expired. Re-enter your college credentials on the page linked in this email.",
+        "expected": "suspicious",
+        "score": 60,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "academic_portal",
+        "semanticUsed": false
+      },
+      {
+        "text": "Placement shortlist is ready but Rs 1,200 documentation fee must be paid before the interview call is issued.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "advance_fee",
+        "semanticUsed": false
+      },
+      {
+        "text": "College fee notice: transfer the pending semester amount to this personal account; the official portal is down.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "faculty_impersonation",
+        "semanticUsed": false
+      },
+      {
+        "text": "You won a campus contest voucher. Pay Rs 299 claim charge and share the OTP to collect it.",
+        "expected": "suspicious",
+        "score": 75,
+        "level": "high",
+        "flagged": true,
+        "uncertain": false,
+        "category": "credential_phishing",
+        "semanticUsed": false
+      },
+      {
+        "text": "Part-time library job, earn Rs 1,200 a day from your room. Pay a one-time training fee to unlock tasks.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "advance_fee",
+        "semanticUsed": false
+      },
+      {
+        "text": "Placement training timetable is published. Collect your badge from the cell; no fee is charged for the session.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "The scholarship instalment has been credited. Verify the amount in the official portal using your roll number.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Library opening hours are extended during exams. Renew your books through the library portal.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "The annual tech fest is free for students with a college ID. Register on the official event website.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Hostel maintenance will begin Tuesday morning. Residents may use the common room during the work.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Professor Mehta will hold extra guidance hours on Wednesday. Submit your synopsis through the course portal.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Semester fee payment is open until the 25th. Use only the payment gateway linked from the college website.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Cyber safety workshop today: never share your OTP or UPI PIN. Report suspicious messages to the IT helpdesk.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Internal assessment results are available on the academic portal. Log in with your college credentials.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      },
+      {
+        "text": "Are we still meeting at the library at 5 PM? I will bring the notes from the last lecture.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": false
+      }
+    ]
+  },
+  "hybridWithModel": {
+    "n": 20,
+    "threshold": "warning-sign score >= 40",
+    "truePositives": 10,
+    "falseNegatives": 0,
+    "falsePositives": 0,
+    "trueNegatives": 10,
+    "missedExamples": [],
+    "rows": [
+      {
+        "text": "An unknown email offers an internship and asks for a Rs 2,200 security deposit to confirm your seat by tonight.",
+        "expected": "suspicious",
+        "score": 60,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "internship_fee",
+        "semanticUsed": true
+      },
+      {
+        "text": "Scholarship disbursal is delayed. Pay Rs 850 processing charge through this UPI link to receive the instalment.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "campus_fee",
+        "semanticUsed": true
+      },
+      {
+        "text": "The HOD has messaged privately for Aadhaar scans before the placement list is finalised. Keep it confidential.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "faculty_impersonation",
+        "semanticUsed": true
+      },
+      {
+        "text": "Tech fest workshop seats are closing. Send Rs 650 registration charge to the organiser personal account now.",
+        "expected": "suspicious",
+        "score": 60,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "event_registration",
+        "semanticUsed": true
+      },
+      {
+        "text": "Hostel allotment is on hold until a Rs 5,000 advance is transferred to the warden account today.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "hostel_payment",
+        "semanticUsed": true
+      },
+      {
+        "text": "Your academic portal password has expired. Re-enter your college credentials on the page linked in this email.",
+        "expected": "suspicious",
+        "score": 61,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "academic_portal",
+        "semanticUsed": true
+      },
+      {
+        "text": "Placement shortlist is ready but Rs 1,200 documentation fee must be paid before the interview call is issued.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "advance_fee",
+        "semanticUsed": true
+      },
+      {
+        "text": "College fee notice: transfer the pending semester amount to this personal account; the official portal is down.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "faculty_impersonation",
+        "semanticUsed": true
+      },
+      {
+        "text": "You won a campus contest voucher. Pay Rs 299 claim charge and share the OTP to collect it.",
+        "expected": "suspicious",
+        "score": 73,
+        "level": "high",
+        "flagged": true,
+        "uncertain": false,
+        "category": "credential_phishing",
+        "semanticUsed": true
+      },
+      {
+        "text": "Part-time library job, earn Rs 1,200 a day from your room. Pay a one-time training fee to unlock tasks.",
+        "expected": "suspicious",
+        "score": 45,
+        "level": "elevated",
+        "flagged": true,
+        "uncertain": true,
+        "category": "advance_fee",
+        "semanticUsed": true
+      },
+      {
+        "text": "Placement training timetable is published. Collect your badge from the cell; no fee is charged for the session.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "The scholarship instalment has been credited. Verify the amount in the official portal using your roll number.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Library opening hours are extended during exams. Renew your books through the library portal.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "The annual tech fest is free for students with a college ID. Register on the official event website.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Hostel maintenance will begin Tuesday morning. Residents may use the common room during the work.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Professor Mehta will hold extra guidance hours on Wednesday. Submit your synopsis through the course portal.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Semester fee payment is open until the 25th. Use only the payment gateway linked from the college website.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Cyber safety workshop today: never share your OTP or UPI PIN. Report suspicious messages to the IT helpdesk.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Internal assessment results are available on the academic portal. Log in with your college credentials.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      },
+      {
+        "text": "Are we still meeting at the library at 5 PM? I will bring the notes from the last lecture.",
+        "expected": "legitimate",
+        "score": 0,
+        "level": "low",
+        "flagged": false,
+        "uncertain": true,
+        "category": null,
+        "semanticUsed": true
+      }
+    ]
+  }
+}

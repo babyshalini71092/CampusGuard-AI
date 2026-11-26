@@ -1,0 +1,3415 @@
+{
+  "datasetHash": "5232df725955f75fd9c3a2da9aa92ead1b7e0a9b1fe7665fab0d17acad8d2795",
+  "metrics": {
+    "rules": {
+      "tp": 20,
+      "fp": 2,
+      "fn": 16,
+      "tn": 34,
+      "precision": 90.9,
+      "recall": 55.6,
+      "f1": 69,
+      "falsePositiveRate": 5.6,
+      "ambiguousFlagged": 5,
+      "ambiguousUncertain": 36
+    },
+    "semantic": {
+      "tp": 22,
+      "fp": 8,
+      "fn": 14,
+      "tn": 28,
+      "precision": 73.3,
+      "recall": 61.1,
+      "f1": 66.7,
+      "falsePositiveRate": 22.2,
+      "ambiguousFlagged": 14,
+      "ambiguousUncertain": 16
+    },
+    "existing": {
+      "tp": 20,
+      "fp": 2,
+      "fn": 16,
+      "tn": 34,
+      "precision": 90.9,
+      "recall": 55.6,
+      "f1": 69,
+      "falsePositiveRate": 5.6,
+      "ambiguousFlagged": 5,
+      "ambiguousUncertain": 36
+    },
+    "improved": {
+      "tp": 26,
+      "fp": 2,
+      "fn": 10,
+      "tn": 34,
+      "precision": 92.9,
+      "recall": 72.2,
+      "f1": 81.3,
+      "falsePositiveRate": 5.6,
+      "ambiguousFlagged": 5,
+      "ambiguousUncertain": 36
+    },
+    "improvedRulesAndUrls": {
+      "tp": 26,
+      "fp": 2,
+      "fn": 10,
+      "tn": 34,
+      "precision": 92.9,
+      "recall": 72.2,
+      "f1": 81.3,
+      "falsePositiveRate": 5.6,
+      "ambiguousFlagged": 5,
+      "ambiguousUncertain": 36
+    }
+  },
+  "rows": [
+    {
+      "id": 1,
+      "label": "suspicious",
+      "topic": "placement",
+      "text": "HR onboarding desk: the offer PDF appears after you transfer the refundable workstation bond to the recruiter’s wallet.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.101,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "suspicious",
+      "topic": "placement",
+      "text": "Your assessment score was selected for direct joining. Send ₹1800 to the coordinator’s individual bank account to activate payroll.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.031,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "suspicious",
+      "topic": "internship",
+      "text": "We can assign you a remote mentor tomorrow. First reimburse the agency for your mandatory training kit via UPI.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.041,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 4,
+      "label": "suspicious",
+      "topic": "placement",
+      "text": "Bhai, joining letter kal milega. Pehle recruiter ko security deposit bhejo on his personal UPI.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.181,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 53,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 53,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "suspicious",
+      "topic": "internship",
+      "text": "To confirm your research internship, buy two gift cards and send the redemption codes to me privately.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.014,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 6,
+      "label": "suspicious",
+      "topic": "placement",
+      "text": "The interview is waived. Pay a processing charge to the consultant before we add your name to the employer roster.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.002,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 7,
+      "label": "suspicious",
+      "topic": "scholarship",
+      "text": "The foundation grant is on hold until you pay our clearance fee to the officer’s personal account tonight.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.033,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 8,
+      "label": "suspicious",
+      "topic": "scholarship",
+      "text": "Scholarship team here. Reply with a screenshot of the verification code from your student login screen.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.031,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "suspicious",
+      "topic": "scholarship",
+      "text": "Your stipend appeal is approved. Transfer a small file activation fee to the number in this chat so it can be credited.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.102,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 10,
+      "label": "suspicious",
+      "topic": "scholarship",
+      "text": "Scholarship list mein naam hai. Release se pehle processing fee bhejo; office ko abhi mat batana.",
+      "rules": {
+        "score": 48,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.145,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 52,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 52,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 48,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "suspicious",
+      "topic": "scholarship",
+      "text": "Send the OTP from your scholarship portal to this WhatsApp number to complete the payout.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.088,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 12,
+      "label": "suspicious",
+      "topic": "faculty",
+      "text": "I am your new project supervisor. Buy an Amazon voucher and DM me the code before the lab opens.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.033,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "suspicious",
+      "topic": "faculty",
+      "text": "Professor's new number here. Screenshot your authenticator code and send it back so I can approve your thesis form.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "suspicious",
+      "topic": "faculty",
+      "text": "I’m the department chair. Order three gift cards for visiting judges and send me the codes. I’ll reimburse you later.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.046,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 3,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "suspicious",
+      "topic": "faculty",
+      "text": "Dean here. The portal is down, so transfer the revaluation fee to my personal UPI and do not tell the accounts office.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.112,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 16,
+      "label": "suspicious",
+      "topic": "faculty",
+      "text": "Sir ka number change hua hai. UPI karo is personal account mein for the viva slot.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.169,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "suspicious",
+      "topic": "portal",
+      "text": "Your library account expires this evening. Enter your campus password at https://library.example.invalid@reset.example to keep access.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.175,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 46,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "suspicious",
+      "topic": "portal",
+      "text": "Registrar security check. Login again with your campus credentials at http://192.0.2.14/verify to keep exam access.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.099,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 26,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 26,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": false
+      }
+    },
+    {
+      "id": 19,
+      "label": "suspicious",
+      "topic": "portal",
+      "text": "We migrated student mail. Open http://accounts-check.example/college and send the OTP you receive to the help desk.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.055,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "suspicious",
+      "topic": "portal",
+      "text": "Marksheets unlock today. Go to https://xn--student-portal-9za.example/reset and re-enter your password.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.042,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "suspicious",
+      "topic": "portal",
+      "text": "Your campus sign-in has been frozen. Visit https://student-help.example/account and upload a photo of your recovery code.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.148,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 20,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 22,
+      "label": "suspicious",
+      "topic": "portal",
+      "text": "The replacement attendance portal is at hxxp://signin-campus[.]example/confirm. Enter your student login password there.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.058,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "suspicious",
+      "topic": "payment",
+      "text": "The hostel office switched to manual booking. Send ₹4500 to the warden’s personal UPI to keep your allotted bed.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.159,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 24,
+      "label": "suspicious",
+      "topic": "payment",
+      "text": "Scan my QR code and enter your UPI PIN to receive the duplicate mess fee refund.",
+      "rules": {
+        "score": 46,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.193,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 54,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 54,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 46,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "suspicious",
+      "topic": "payment",
+      "text": "The college fest accounts have changed. Ignore the printed account and transfer the entry charge to my personal wallet now.",
+      "rules": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.054,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 22,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 22,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "suspicious",
+      "topic": "payment",
+      "text": "To reverse the tuition charge, approve the collect request in your UPI app and send the confirmation screenshot.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.078,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 11,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 11,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 27,
+      "label": "suspicious",
+      "topic": "payment",
+      "text": "Admission desk: pay the balance before 4 pm to this personal account. The official student portal is unavailable.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.016,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 28,
+      "label": "suspicious",
+      "topic": "payment",
+      "text": "College ID replacement fee yahin bhej do on my personal UPI; cashier ko mat poochna.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.165,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "suspicious",
+      "topic": "social",
+      "text": "Can you buy a couple of store vouchers for me? Scratch them and message the numbers instead of the pictures.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.01,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "suspicious",
+      "topic": "social",
+      "text": "Please forward the six digits on the page you just opened. I need them to mark you present remotely.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.019,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "suspicious",
+      "topic": "social",
+      "text": "A courier is holding the lab tablet. Install AnyDesk and tell the delivery agent the connection number to release it.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.046,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "suspicious",
+      "topic": "social",
+      "text": "Robotics club treasurer here. I sent too much; send it back to a different UPI address before checking your balance.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.048,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "suspicious",
+      "topic": "social",
+      "text": "The sports desk is issuing new bibs. Your one-time code came to your phone; send it to me here.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.002,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "suspicious",
+      "topic": "obfuscation",
+      "text": "S​hare your OＴＰ with the scholarship desk on this chat and we will reactivate the award.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.001,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "suspicious",
+      "topic": "obfuscation",
+      "text": "PＡＹ a refundable registration fee through my personal UPI to secure your interview slot.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.108,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 47,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 64,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 69,
+        "flagged": true,
+        "uncertain": false
+      }
+    },
+    {
+      "id": 36,
+      "label": "suspicious",
+      "topic": "obfuscation",
+      "text": "Click below to restore the student record: https://student-portal.example@signin-verify.example/reset and provide your password.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.129,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 47,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "legitimate",
+      "topic": "placement",
+      "text": "The placement board lists the shortlisted candidates. Interviews are in seminar room 4; bring a printed resume.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.162,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "legitimate",
+      "topic": "placement",
+      "text": "Candidates should book an interview slot using the placement timetable in the existing student dashboard.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.149,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 39,
+      "label": "legitimate",
+      "topic": "internship",
+      "text": "Your summer laboratory placement starts on Monday. Meet your mentor at the department reception at 9:30.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.2,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "legitimate",
+      "topic": "placement",
+      "text": "Placement cell update: training is free, and the employer will send joining instructions through the portal.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.06,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 41,
+      "label": "legitimate",
+      "topic": "internship",
+      "text": "Internship ke forms kal tak submit kar do; department office mein hard copy deni hai.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.128,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 15,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 15,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "legitimate",
+      "topic": "placement",
+      "text": "Walk-in mock interviews are offered by the careers centre. Bring your college ID for building access.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.022,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "legitimate",
+      "topic": "scholarship",
+      "text": "Scholarship renewals open next week. Pick up a printed checklist at the financial aid counter.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.123,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "legitimate",
+      "topic": "scholarship",
+      "text": "The fellowship amount was credited to your account; confirm receipt in your bank app when convenient.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.009,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 45,
+      "label": "legitimate",
+      "topic": "scholarship",
+      "text": "The revised merit list is available on the existing academic portal. Objections may be sent to the scholarship office.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.13,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "legitimate",
+      "topic": "scholarship",
+      "text": "Financial aid asks students to collect their signed award letters at the registrar’s desk with campus ID.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.003,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 47,
+      "label": "legitimate",
+      "topic": "scholarship",
+      "text": "Stipend aaya hai. Accounts counter se payment statement lekar hostel office mein file kar do.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.245,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 20,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 20,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "legitimate",
+      "topic": "faculty",
+      "text": "Dr Mehta: I have moved tomorrow’s lab to room B12. The experiment sheet is on the course page.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.217,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "legitimate",
+      "topic": "faculty",
+      "text": "Professor Rao asks students to bring their signed ethics forms to the workshop, no email attachment needed.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.042,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "legitimate",
+      "topic": "faculty",
+      "text": "The faculty office is returning borrowed calculators from 2 to 4 pm. Sign against your name at pickup.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.066,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "legitimate",
+      "topic": "faculty",
+      "text": "The lab coordinator will reimburse approved book purchases against the original paper receipts.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "legitimate",
+      "topic": "faculty",
+      "text": "Ma’am said the viva list is on the department noticeboard. Please check your roll number tomorrow.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "legitimate",
+      "topic": "portal",
+      "text": "The LMS is undergoing maintenance at 8 pm. Open it from your saved university bookmark once maintenance ends.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.034,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 54,
+      "label": "legitimate",
+      "topic": "portal",
+      "text": "Use your existing campus dashboard to download the marksheet. IT will never ask for your password.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.008,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "legitimate",
+      "topic": "portal",
+      "text": "The library login will be offline this weekend. You can renew books at the circulation desk until Monday.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.076,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 56,
+      "label": "legitimate",
+      "topic": "portal",
+      "text": "In the campus app select Settings, then Security, to review devices. Do not send verification codes to anyone.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.07,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "legitimate",
+      "topic": "portal",
+      "text": "Please sign in to the attendance portal using the normal bookmark; the IT team has added a timetable export.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.042,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 58,
+      "label": "legitimate",
+      "topic": "portal",
+      "text": "Our exam portal shows the new hall tickets. Save a PDF from the dashboard you already use.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.001,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 59,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "Last date to pay the exam fee is Tuesday. Use your usual student portal or pay at the campus cash counter.",
+      "rules": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": false
+      },
+      "semantic": {
+        "gap": -0.126,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 7,
+        "flagged": false,
+        "uncertain": false
+      },
+      "improved": {
+        "score": 7,
+        "flagged": false,
+        "uncertain": false
+      },
+      "improvedRulesAndUrls": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": false
+      }
+    },
+    {
+      "id": 60,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "The official student portal now accepts the annual lab fee. Keep the receipt for your department file.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.084,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "Your mess refund has been initiated. No approval or UPI PIN is needed to receive it.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.131,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 16,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 16,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 62,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "Register by Friday for the theatre workshop. A ₹100 participation fee covers materials and is paid at the venue.",
+      "rules": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.126,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 29,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 29,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "The hostel deposit is listed on your printed allotment letter. The cashier issues a receipt after payment.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.088,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 12,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 12,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 64,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "Fees kal tak bhar do using the normal college dashboard; receipt apne paas rakho.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "legitimate",
+      "topic": "payment",
+      "text": "Final reminder: pay the backlog exam fee in person at the exam office before 3 pm and collect the stamped receipt.",
+      "rules": {
+        "score": 19,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.022,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 19,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 19,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 19,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 66,
+      "label": "legitimate",
+      "topic": "social",
+      "text": "The sports club needs two volunteers to bring water bottles to the court before the first match.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.029,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "legitimate",
+      "topic": "social",
+      "text": "Borrow a laptop from the lab desk with your student ID. Please return it before the library closes.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.006,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 68,
+      "label": "legitimate",
+      "topic": "social",
+      "text": "The volunteering team will provide gift cards at check-in; keep your code private and redeem it yourself.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.045,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 8,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 8,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 69,
+      "label": "legitimate",
+      "topic": "social",
+      "text": "Group project ke slides Drive pe daal dena. Meeting timing 5:15 in the canteen.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.093,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 70,
+      "label": "legitimate",
+      "topic": "social",
+      "text": "Security awareness reminder: never forward a one-time code, even if the sender says they are from college.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.088,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "legitimate",
+      "topic": "registration",
+      "text": "Online registration for the statistics tutorial closes tomorrow. Open the course page in your regular LMS.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.03,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "legitimate",
+      "topic": "registration",
+      "text": "The conference early-bird registration fee has been extended through Friday. Purchase tickets at the student centre.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.033,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 73,
+      "label": "ambiguous",
+      "topic": "placement",
+      "text": "Your offer packet is ready. Contact the coordinator for the next step and ask about the joining requirements.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.082,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 11,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 11,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 74,
+      "label": "ambiguous",
+      "topic": "placement",
+      "text": "The recruiter posted a form in the batch chat and said shortlisted students should open it this afternoon.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.102,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "ambiguous",
+      "topic": "internship",
+      "text": "There may be a refundable equipment deposit for students using the host lab. Details will follow after the briefing.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.007,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "ambiguous",
+      "topic": "placement",
+      "text": "HR says the shortlisted group has a final step to complete today. The procedure was not included in the message.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.029,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "ambiguous",
+      "topic": "internship",
+      "text": "Internship coordinator ne bola form fill karke send karo. Link class group mein baad mein aayega.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.119,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "ambiguous",
+      "topic": "placement",
+      "text": "The company plans to courier offer letters. Ask the recruiter whether they need your address.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.012,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "ambiguous",
+      "topic": "scholarship",
+      "text": "The bursary team needs some additional verification before it can release the grant. Call for details.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.018,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "ambiguous",
+      "topic": "scholarship",
+      "text": "Someone from financial aid asked me to bring bank passbook copies to a different building this afternoon.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.022,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "ambiguous",
+      "topic": "scholarship",
+      "text": "The scholarship form now has a verification charge column; the notice does not say whether to pay it.",
+      "rules": {
+        "score": 48,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.054,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 48,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 82,
+      "label": "ambiguous",
+      "topic": "scholarship",
+      "text": "The society will distribute stipend top-ups on Friday. Send your name to the coordinator if you want to be listed.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.032,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "ambiguous",
+      "topic": "scholarship",
+      "text": "Scholarship office says to confirm the last four digits of your bank account at the desk.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.05,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "ambiguous",
+      "topic": "faculty",
+      "text": "The department head got a new phone. Save this number and text back if you are free this afternoon.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.037,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "ambiguous",
+      "topic": "faculty",
+      "text": "I’m your lab supervisor. Can you handle a quick errand before the guests arrive? I’ll explain on a call.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.108,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "ambiguous",
+      "topic": "faculty",
+      "text": "The professor asks the class representative to collect phone numbers for an external visit.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.001,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "ambiguous",
+      "topic": "faculty",
+      "text": "Dean's office wants a reply before lunch with the names of students on duty.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 88,
+      "label": "ambiguous",
+      "topic": "faculty",
+      "text": "Sir ne bola personal number pe call karna about the workshop supplies. Details nahi diye.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.097,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "ambiguous",
+      "topic": "portal",
+      "text": "Your account needs an update after maintenance. Instructions will come separately.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.116,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "ambiguous",
+      "topic": "portal",
+      "text": "Student support has posted a replacement login address at https://support-students.example; confirm with your department.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.115,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 14,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 14,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 91,
+      "label": "ambiguous",
+      "topic": "portal",
+      "text": "The student dashboard asks for verification after sign-in. Is everyone else seeing that prompt?",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.048,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "ambiguous",
+      "topic": "portal",
+      "text": "Portal ka link change hua hai apparently. Batch rep will share a screenshot this evening.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.034,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "ambiguous",
+      "topic": "portal",
+      "text": "I got redirected to a new page while opening the exam schedule. Has the university announced a migration?",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.01,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "ambiguous",
+      "topic": "portal",
+      "text": "College login link came through our WhatsApp group instead of email. It asks for the usual campus sign-in.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.068,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 10,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 10,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "The sports captain is collecting tournament dues on behalf of the team. Payment instructions are coming later.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.011,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 96,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "Mess committee says an overpayment might be refunded. They asked for the reference number from last week’s receipt.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.207,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 97,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "The hostel office says there is a room deposit, but the payment channel is missing from the message.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.115,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 14,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 14,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "Accounts says the portal is temporarily down. Check with your class coordinator about another way to pay.",
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.095,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "Someone in the batch group asked for a screenshot of the fee receipt to reconcile the list.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.051,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "The registration desk accepts transfer today. The message shows an account name I do not recognize.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.108,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "ambiguous",
+      "topic": "payment",
+      "text": "Fee jama karna hai before 5, group admin has not yet shared the college payment details.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.01,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "ambiguous",
+      "topic": "social",
+      "text": "I need a favour for the guest lecture. Please reply before going into class.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.184,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 103,
+      "label": "ambiguous",
+      "topic": "social",
+      "text": "The club needs vouchers for a giveaway. Message the treasurer before you make a purchase.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.142,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 17,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 17,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 104,
+      "label": "ambiguous",
+      "topic": "social",
+      "text": "A courier called about a department parcel and asked for the delivery confirmation number at drop-off.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.008,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "ambiguous",
+      "topic": "social",
+      "text": "The event organiser says they need a screenshot of the ticket QR to check the gate list.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.111,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 106,
+      "label": "ambiguous",
+      "topic": "social",
+      "text": "Someone from IT asked me to screen-share tomorrow to show a timetable bug.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.055,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 107,
+      "label": "ambiguous",
+      "topic": "registration",
+      "text": "Registration closes this evening. Ask the person managing the group which form is current.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.027,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 108,
+      "label": "ambiguous",
+      "topic": "registration",
+      "text": "The programme fee is being revised and a new payment request might be sent later today.",
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.032,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improved": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "improvedRulesAndUrls": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    }
+  ]
+}

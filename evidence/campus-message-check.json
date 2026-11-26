@@ -1,0 +1,87 @@
+{
+  "mode": "rules-only Node analysis of typed campus messages",
+  "rows": [
+    {
+      "name": "internship fee",
+      "score": 75,
+      "level": "high",
+      "category": "internship_fee",
+      "indicators": [
+        "internship_fee",
+        "advance_fee",
+        "prize",
+        "campus_fee"
+      ]
+    },
+    {
+      "name": "fake professor",
+      "score": 45,
+      "level": "elevated",
+      "category": "faculty_impersonation",
+      "indicators": [
+        "secrecy",
+        "faculty_impersonation"
+      ]
+    },
+    {
+      "name": "academic portal",
+      "score": 60,
+      "level": "elevated",
+      "category": "academic_portal",
+      "indicators": [
+        "pin_password",
+        "phishing_page",
+        "academic_portal"
+      ]
+    },
+    {
+      "name": "fest charge",
+      "score": 66,
+      "level": "elevated",
+      "category": "event_registration",
+      "indicators": [
+        "advance_fee",
+        "campus_fee",
+        "event_registration"
+      ]
+    },
+    {
+      "name": "hostel advance",
+      "score": 45,
+      "level": "elevated",
+      "category": "hostel_payment",
+      "indicators": [
+        "hostel_advance",
+        "channel_mismatch"
+      ]
+    },
+    {
+      "name": "placement notice",
+      "score": 0,
+      "level": "low",
+      "category": null,
+      "indicators": []
+    },
+    {
+      "name": "semester fee notice",
+      "score": 0,
+      "level": "low",
+      "category": null,
+      "indicators": []
+    },
+    {
+      "name": "project deadline",
+      "score": 0,
+      "level": "low",
+      "category": null,
+      "indicators": []
+    },
+    {
+      "name": "scholarship notice",
+      "score": 0,
+      "level": "low",
+      "category": null,
+      "indicators": []
+    }
+  ]
+}

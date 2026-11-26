@@ -1,0 +1,1949 @@
+{
+  "datasetHash": "5232df725955f75fd9c3a2da9aa92ead1b7e0a9b1fe7665fab0d17acad8d2795",
+  "cases": [
+    {
+      "id": 1,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.101,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 2,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.031,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 3,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.041,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 4,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.181,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 53,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 5,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.014,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 6,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.002,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 7,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.033,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 8,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.031,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 9,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.102,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 10,
+      "rules": {
+        "score": 48,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.145,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 52,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 11,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.088,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 12,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.033,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 13,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 14,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.046,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 3,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 15,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.112,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 16,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.169,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 17,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.175,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 18,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.099,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 26,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 19,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.055,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 20,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.042,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 21,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.148,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 20,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 22,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.058,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 23,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.159,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 24,
+      "rules": {
+        "score": 46,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.193,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 54,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 25,
+      "rules": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.054,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 22,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 26,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.078,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 11,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 27,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.016,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 28,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.165,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 29,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.01,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 30,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.019,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 31,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.046,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 32,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.048,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 33,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.002,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 34,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.001,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 35,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.108,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 47,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 36,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.129,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 37,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.162,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 38,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.149,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 39,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.2,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 40,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.06,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 41,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.128,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 15,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 42,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.022,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 43,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.123,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 44,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.009,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 45,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.13,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 46,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.003,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 47,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.245,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 20,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 48,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.217,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 49,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.042,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 50,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.066,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 51,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 52,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 53,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.034,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 54,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.008,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 55,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.076,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 56,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.07,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 57,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.042,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 1,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 58,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.001,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 59,
+      "rules": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": false
+      },
+      "semantic": {
+        "gap": -0.126,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 7,
+        "flagged": false,
+        "uncertain": false
+      }
+    },
+    {
+      "id": 60,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.084,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 61,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.131,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 16,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 62,
+      "rules": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.126,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 29,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 63,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.088,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 12,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 64,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 65,
+      "rules": {
+        "score": 19,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.022,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 19,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 66,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.029,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 67,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.006,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 68,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.045,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 8,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 69,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.093,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 70,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.088,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 71,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.03,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 72,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.033,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 73,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.082,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 11,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 74,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.102,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 75,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.007,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 76,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.029,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 77,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.119,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 78,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.012,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 79,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.018,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 80,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.022,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 81,
+      "rules": {
+        "score": 48,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.054,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 82,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.032,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 83,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.05,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 84,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.037,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 85,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.108,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 86,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.001,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 87,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.039,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 88,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.097,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 89,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.116,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 90,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.115,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 14,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 91,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.048,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 9,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 92,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.034,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 93,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.01,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 94,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.068,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 10,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 95,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.011,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 96,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.207,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 18,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 97,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.115,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 14,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 98,
+      "rules": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.095,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 45,
+        "flagged": true,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 99,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.051,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 100,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.108,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 13,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 101,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.01,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 102,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.184,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 103,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.142,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 17,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 104,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.008,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 105,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.111,
+        "flagged": true,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 6,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 106,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": -0.055,
+        "flagged": false,
+        "uncertain": false
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 107,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.027,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    },
+    {
+      "id": 108,
+      "rules": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      },
+      "semantic": {
+        "gap": 0.032,
+        "flagged": false,
+        "uncertain": true
+      },
+      "existing": {
+        "score": 0,
+        "flagged": false,
+        "uncertain": true
+      }
+    }
+  ]
+}

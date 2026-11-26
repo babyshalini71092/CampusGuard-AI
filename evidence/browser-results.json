@@ -1,0 +1,42 @@
+{
+  "home renders campus headline and tagline": true,
+  "pretrained ONNX model initialized in browser": true,
+  "modelStartupMs": 8318,
+  "firstAnalysisMs": 171,
+  "typed campus message analyzed with semantic evidence": true,
+  "elevated or high concern for internship fee scam": true,
+  "warmAnalysisMs": 136,
+  "legitimate campus notice shows few warning signs": true,
+  "repeatAnalysisMs": 78,
+  "ocrMs": 1712,
+  "browser OCR extracted message": true,
+  "repeatOcrMs": 402,
+  "extracted text analyzed": true,
+  "corrected OCR reached the analyzer": true,
+  "model stays initialized across sections": true,
+  "modelDownloads": 1,
+  "model weights requested once per session": true,
+  "ortResponses": [
+    "/ort/ort-wasm-simd-threaded.wasm",
+    "/ort/ort-wasm-simd-threaded.mjs"
+  ],
+  "vendored ORT module and WASM loaded": true,
+  "student assessment escalates to stop": true,
+  "recovery plan generated": true,
+  "simulation feedback shown": true,
+  "documentation files served": true,
+  "mainThread": {
+    "longestTaskMs": 104,
+    "longTasks": 5,
+    "jsHeapMiB": 55
+  },
+  "mobile no horizontal overflow (390/390)": true,
+  "mobile navigation works": true,
+  "mobile payment no overflow (390/390)": true,
+  "no application console errors (excluding local asset fetch noise)": true,
+  "consoleErrors": [],
+  "localAssetFetchNoise": [
+    "requestfailed: http://127.0.0.1:4181/models/minilm/tokenizer_config.json net::ERR_ABORTED"
+  ],
+  "ocrText": "Congratulations! You won Rs 25000 lottery.\nPay Rs 500 fee and share your OTP now.\nThis offer expires in 10 minutes."
+}

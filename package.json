@@ -1,0 +1,36 @@
+{
+  "name": "campusguard-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:model": "node scripts/verify-model.mjs",
+    "test:ocr": "node scripts/verify-ocr.mjs",
+    "verify": "npm run test && npm run test:model && npm run test:ocr && npm run build",
+    "test:eval": "node scripts/evaluate.mjs",
+    "prebuild": "node scripts/copy-docs.mjs",
+    "browser:check": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^25.0.1",
+    "playwright": "^1.65.1",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}
